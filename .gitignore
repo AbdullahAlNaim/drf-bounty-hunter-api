@@ -1,0 +1,10 @@
+# Python bytecode files
+__pycache__/
+
+bounty_hunter/__pycache__/
+
+# Local database file
+db.sqlite3
+
+# Sensitive settings file
+gamedev/settings.py
