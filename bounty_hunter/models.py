@@ -11,3 +11,4 @@ class Creature(models.Model):
     task = models.TextField()
     difficulty = models.CharField(max_length=10, choices=DIFFICULTY_CHOICE)
     created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)

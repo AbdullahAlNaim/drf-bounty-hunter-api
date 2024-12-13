@@ -6,3 +6,7 @@ from .serializers import CreatureSerializer
 class Bounty(generics.ListCreateAPIView):
     queryset = Creature.objects.all()
     serializer_class = CreatureSerializer
+
+class Task(generics.RetrieveDestroyAPIView):
+    queryset = Creature.objects.all()
+    serializer_class = CreatureSerializer
